@@ -1,0 +1,14 @@
+User symptoms: {{SYMPTOMS}}
+
+Constraints:
+- Output must be a JSON object only (no extra text) with these keys:
+  - "disclaimer": short educational disclaimer
+  - "conditions": array of objects { "name": "", "confidence": "low|medium|high", "rationale": "" }
+  - "red_flags": array of strings (serious signs that need urgent care)
+  - "recommended_next_steps": array of strings (tests/actions/what to say to a doctor)
+  - "search_keywords": array of strings (short phrases user can search)
+  - "notes": optional (short clarifying note or when to seek immediate help)
+- Each condition must include a concise one-line rationale.
+- Do not provide dosing, prescriptions, or exact treatment. This is educational only.
+- Keep JSON parsable. Provide probabilities as low/medium/high.
+End.
