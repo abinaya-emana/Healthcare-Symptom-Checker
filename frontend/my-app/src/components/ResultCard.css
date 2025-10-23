@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.result-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 25px 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  color: #222;
+  border-left: 6px solid #1976d2;
+}
+
+.result-section {
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Blue section: Possible Conditions */
+.result-section.conditions {
+  background-color: #e8f2ff;
+  border-left: 6px solid #1976d2;
+}
+
+/* Green section: Next Steps */
+.result-section.next-steps {
+  background-color: #ecfff2;
+  border-left: 6px solid #2e7d32;
+}
+
+/* Red flags (optional section) */
+.result-section.red-flags {
+  background-color: #fff4f4;
+  border-left: 6px solid #d32f2f;
+}
+
+/* Headings */
+.result-section h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0b3954;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #c5def7;
+  padding-bottom: 5px;
+}
+
+.result-section.next-steps h2 {
+  color: #2e7d32;
+  border-bottom-color: #c8f7c5;
+}
+
+.result-section.red-flags h2 {
+  color: #c62828;
+  border-bottom-color: #f7c5c5;
+}
+
+/* Preformatted text styling for AI raw/plain responses */
+.result-card pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 5px 0;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  background: transparent;
+  border: none;
+  color: #333;
+}
+
+/* Lists inside structured results */
+.result-card ul, .result-card ol {
+  margin: 10px 0 10px 25px;
+  padding: 0;
+}
+
+.result-card li {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.result-card li strong {
+  color: #111;
+  font-weight: 600;
+}
+
+.result-card.clean-output {
+  border-left: 6px solid #1565c0;
+}
+
+/* Disclaimer box */
+.disclaimer {
+  background-color: #fff8e1;
+  color: #b36b00;
+  border-left: 5px solid #f9a825;
+  padding: 14px 18px;
+  border-radius: 8px;
+  margin-top: 25px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
