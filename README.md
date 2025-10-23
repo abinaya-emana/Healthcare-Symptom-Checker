@@ -1,6 +1,15 @@
+
+
+
+
 # Health Checker
 
 **Health Checker** is an AI-powered symptom analysis platform designed to help users understand possible medical conditions based on their reported symptoms. Leveraging large language models (LLMs) and optional integration with generative AI APIs (like Google Gemini), the system interprets symptoms, assesses severity, and provides plausible conditions with reasoning.
+
+---
+## Demo Video
+
+https://github.com/user-attachments/assets/2c3493be-ad3b-4e9c-b6c8-7c23f3df18c0
 
 ---
 
