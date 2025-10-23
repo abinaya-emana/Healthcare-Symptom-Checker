@@ -1,8 +1,5 @@
 
-
-
-
-# Health Checker
+# Healthcare Symptom Checker
 
 **Health Checker** is an AI-powered symptom analysis platform designed to help users understand possible medical conditions based on their reported symptoms. Leveraging large language models (LLMs) and optional integration with generative AI APIs (like Google Gemini), the system interprets symptoms, assesses severity, and provides plausible conditions with reasoning.
 
@@ -25,8 +22,9 @@ https://github.com/user-attachments/assets/2c3493be-ad3b-4e9c-b6c8-7c23f3df18c0
 
 ## Technical Highlights
 
-- **Backend:** Node.js integrating LLM APIs for symptom interpretation.
-- **Frontend:** Designed for clarity, allowing multi-symptom entry and structured output.
+- **Backend:** Node.js integrating **Google Gemini Flash 2.5** for AI-based symptom interpretation.  
+- **Frontend:** Responsive interface displaying real-time symptom analysis and database history.  
+- **Database:** `db.json` stores all user queries and AI-generated results.  
 - **Detailed Reasoning:** Each predicted condition is accompanied by explanation to improve transparency and user trust.
 
 ---
@@ -38,4 +36,6 @@ https://github.com/user-attachments/assets/2c3493be-ad3b-4e9c-b6c8-7c23f3df18c0
 - Educational tool for students.
 
 ---
+- Author: Emana Abinaya Lakshmi
+- Email : abinaya.emana@gmail.com
 
